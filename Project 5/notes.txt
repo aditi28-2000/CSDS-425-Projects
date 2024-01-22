@@ -1,0 +1,6 @@
+﻿INFORMATION ABOUT THE DATA FILES USED FOR ANALYSIS
+
+
+* Captured packets in Wireshark and stored in TCPfile.pcap (which is the main packet capture file used for Project 5)
+* Extracted all packets from TCPfile.pcap to store in TCPfileanalysis.csv for ease of programming in Python
+* Applied the filter “tcp.flags.syn ==1 || (tcp.flags.syn ==1 && tcp.flags.ack ==1)” on TCPfile.pcap to extract packets involved in the TCP initial connection establishment and stored in a .csv file named TCP_RTT.csv [to compute result 3.2]
